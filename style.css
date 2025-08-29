@@ -1,0 +1,1129 @@
+body{
+    background-color: #F7FDFB;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 390px;
+    width: 100%;
+    max-width: 1140px;
+    height: 47px;
+    z-index: 1;
+    
+}
+
+.blockgray{
+    background-color: #C4C4C4;
+    width: 161px;
+    height: 40px;
+}
+
+.text_header{
+    display: flex;
+    position: relative;
+    gap: 45px;
+    left: 150px;
+}
+
+.btn_header{
+    width: 123px;
+    height: 47px;
+    background-color: #1B5FC1;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.home{
+    color: #0C122D;
+}
+
+.style_text_header{
+    color: #575C74;
+    
+}
+
+
+.co_cont{
+    position: relative;
+    width: 555px;
+    height: 430px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    top: 304px;
+    left: 390px;
+    
+    
+}
+
+.head_text{
+    color: #FFB800;
+    width: 97px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    
+}
+
+.head_text_two{
+    margin: 0;
+    color: #0C122D;
+    width: 555px;
+    height: 134px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    
+}
+
+.head_text_three{
+    margin: 0;
+    color: #575C74;
+    width: 555px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btns_head{
+    display: flex;
+    gap: 10px;
+}
+
+.shop_btn{
+    width: 115px;
+    height: 46px;
+    color: white;
+    background-color: #1B5FC1;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.learn_btn{
+    width: 125px;
+    height: 46px;
+    border: 1px solid #FFB800;
+    border-radius: 8px;
+    color: #FFB800;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    background-color: #F7FDFB;
+}
+
+.himic{
+    position: absolute;
+    left: 978px;
+    top: 0;
+    z-index: 0;
+}
+
+.people_mask{
+    position: absolute;
+    left: 1033px;
+    top: 147px;
+    border-radius: 14px 14px 14px 0;
+
+}
+
+main{
+    position: relative;
+    top: 503px;
+}
+
+.blocks_Sec_one{
+    position: relative;
+    display: flex;
+    gap: 31px;
+    left: 390px;
+    width: 1141px;
+    height: 179px;
+    
+}
+
+
+.block_col{
+    display: flex;
+    width: 270px;
+    height: 179px;
+   
+}
+
+.block_col_img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+    padding-right: 10px;
+}
+
+.col_into_tex{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0C122D;
+}
+
+.col_into_tex_int{  
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575C74;
+}
+
+.diagnost{
+    position: absolute;
+    top: 0;
+    width: 99.9%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.raspirator_main{
+    display: flex;
+    position: relative;
+    width: 1140px;
+    height: 616px;
+    z-index: 50;
+    top: 150px;
+    left: 391px;
+}
+
+.raspirator_main_text{
+    position: relative;
+    left: 30px;
+    height: 616px;
+    width: 523px;
+}
+
+.raspirator_text_head{
+    margin: 0;
+    width: 525px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0C122D;
+}
+
+.raspirator_text_main{
+    width: 523px;
+    height: 517px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #575C74;
+}
+
+.raspirator_main_second{
+    display: flex;
+    position: relative;
+    width: 1140px;
+    height: 616px;
+    z-index: 50;
+    top: 250px;
+    left: 391px;
+}
+
+.raspirator_main_text_second{
+    padding-right: 50px;
+}
+
+.raspirator_text_head_second{
+    width: 525px;
+    height: 158px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0C122D;
+}
+
+.raspirator_text_main_second{
+    width: 523px;
+    height: 417px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #575C74;
+}
+
+.chemy_block_main{
+    position: relative;
+    display: flex;
+    top: 350px;
+    width: 1140px;
+    height: 616px;
+    left: 390px;
+    
+}
+
+.chemyblock{
+    position: relative;
+    width: 570px;
+    height: 616px;
+}
+
+.chemyblock img{
+    position: relative;
+    margin-top: 24px;
+    
+}
+
+.chemy_text{
+    width: 285px;
+    height: 332px;
+    background-color: #1B5FC1;
+    position: absolute;
+    z-index: 6;
+    top: 284px;
+    left: 285px;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.chemy_text p{
+    width: 225px;
+    height: 216px;
+}
+
+.chemy_main_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.obgort_main_chemy_text{
+    display: flex;
+    width: 570px;
+    height: 332px;
+    justify-content: center;
+}
+
+.obgort_text_chemy_white{
+    width: 285px;
+    height: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    background-color: white;
+    color: #575C74;
+}
+
+.obgort_text_chemy_blue{
+    width: 285px;
+    height: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-top-right-radius: 20px;
+    background-color: #1B5FC1;
+    color: white;
+}
+
+.obgort_text_chemy_blue p,
+.obgort_text_chemy_white p {
+    width: 100%;
+    height: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.yellow_contact{
+    background-color: #FFB800;
+    width: 570px;
+    height: 284px;
+    border-bottom-right-radius: 20px;
+}
+
+.main_yellow_head{
+    width: 338px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #0C122D;
+}
+
+.sec_yellow_head{
+    width: 492px;
+    height: 78px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.yellow_contact p{
+    position: relative;
+    left: 30px;
+    margin: 0;
+}
+
+.btn_block_contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 570px;
+    margin-top: 30px;
+}
+
+.btn_block_contact button{
+    width: 125px;
+    height: 46px;
+    border: 1px solid #1B5FC1;
+    color: #1B5FC1;
+    background-color: #FFB800;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btn_block_contact p{
+    color: #1B5FC1;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn_block_contact span {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    width: 189px; 
+    height: 28px;
+}
+
+.block_contact_layot{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 30px;
+}
+
+.block_company{
+    position: relative;
+    top: 450px;
+    left: 390px;
+    width: 893px;
+    height: 80px;
+}
+
+.reasons_to_choose_product{
+    display: flex;
+    position: relative;
+    left: 390px;
+    top: 550px;
+    width: 1140px;
+    height: 668px;
+   
+}
+
+.massk{
+    width: 400px;
+    height: 630px;
+}
+
+.con_info{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.block_Text_reasons{
+    position: relative;
+    left: 89px;
+    height: 306px;
+    width: 651px;
+    
+}
+
+.head_reasons_text{
+    margin: 0;
+    width: 653px;
+    height: 158px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #0C122D;
+}
+
+.main_Text_reasons_text{
+    margin: 0;
+    width: 651px;
+    height: 145px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #575C74;
+}
+
+.block_icons_info{
+    position: relative;
+    left: 90px;
+    width: 650px;
+    height: 362px;
+    
+}
+
+.indu_cont{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.frst_bl{
+  
+    height: 141px;
+    width: 312px;
+    display: flex;
+}
+
+.sec_bl{
+    
+    height: 169px;
+    width: 312px;
+    display: flex;
+}
+
+.indu_cont_two{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.frst_bl_two{
+   
+    height: 141px;
+    width: 312px;
+    display: flex;
+}
+
+.sec_bl_two{
+   
+    height: 169px;
+    width: 312px;
+    display: flex;
+}
+
+.text_con_block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+   
+}
+
+.icons{
+    height: 56px;
+    width: 56px;
+}
+
+.text_con_head_text{
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #0C122D;
+}
+.text_con_main_text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575C74;
+}
+
+.coments_block{
+    display: flex;
+    width: 1214px;
+    height: 475px;
+    position: relative;
+    left: 390px;
+    top: 650px;
+}
+
+.get_one_Step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 750px;
+    left: 585px;
+    width: 750px;
+    height: 270px;
+}   
+
+.head_text_step{
+    width: 750px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.main_text_step{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 664px;
+    height: 56px;
+    padding-bottom: 20px;
+}
+
+.get_one_Step button{
+    width: 115px;
+    height: 46px;
+    color: white;
+    background-color: #1B5FC1;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.orange_line_contacts{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 850px;
+    width: 100%;
+    height: 133px;
+    background-color: #FFB800;
+}
+
+.contact_fot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1141px;
+    height: 53px;
+}
+
+.adress_block{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    display: flex;
+}
+
+.adress_dop_block{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.adress_dop_block p{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.icon{
+    width: 25.6px;
+    height: 32px;
+}
+
+.icon_phone{
+    width: 32px;
+    height: 32px;
+}
+
+.icon_mail{
+    width: 32px;
+    height: 22.86px;
+}
+
+.contact_fot_text_head{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #0C122D;
+}
+
+.contact_fot_text_main{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0C122D;
+}
+
+footer{
+    position: relative;
+    top: 1353px;
+    width: 100%;
+    height: 417px;
+}
+
+footer img{
+    width: 100%;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**//**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/* Контейнер */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Загальні стилі */
+header, .blocks_Sec_one, .raspirator_main, 
+.raspirator_main_second, .chemy_block_main, 
+.reasons_to_choose_product, .coments_block {
+  max-width: 1140px;
+  padding: 20px;
+}
+
+/* ===== Мобільні (до 768px) ===== */
+@media (max-width: 440px) {
+
+ html, body{
+    overflow-x: hidden;
+  }
+  
+  header {
+    display: flex;
+    gap: 15px;
+    left: 0%;
+    height: 40%;
+    min-width: 400px;
+    padding: 0px !important;
+  }
+  .blockgray{
+    height: 20px;
+  }
+  .head_text_two{
+    width: 100%;
+  }
+
+  main{
+    top: 0;
+  }
+
+  .blocks_Sec_one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 150px;
+    padding: 0 !important;
+  }
+
+  .raspirator_main{
+    width: 100%;
+    padding: 0px !important;
+
+  }
+
+  .raspirator_main_text{
+    top: 20px;
+    left: 10px;
+  }
+
+  .raspirator_text_head{
+    width: 100%;
+  }
+
+  .raspirator_text_main{
+    width: 90%;
+  }
+
+  .raspirator_main_second{
+    top: 460px;
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .raspirator_main_text_second{
+    width: 100% !important;
+    padding: 0;
+    left: 10px;
+    position: relative;
+  }
+
+  .raspirator_text_main_second{
+    width: 90% !important;
+  }
+
+  .raspirator_text_head_second{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .raspirator_main_second img {
+    position: relative;
+    top: 280px;
+  }
+
+  .chemy_block_main{
+    top: 830px;
+    padding: 0;
+  }
+
+  .chemyblock{
+    width: 100%;
+    height: 480px;
+  }
+
+  .obgort_main_chemy_text{
+    width: 100%;
+    height: 200px;
+  }
+
+  .obgort_text_chemy_white{
+    height: 200px;
+  }
+  .obgort_text_chemy_blue{
+    height: 200px;
+  }
+
+  .obgort_main_chemy_text p{
+    position: relative;
+    left: 5px;
+  }
+
+  .yellow_contact{
+    width: 100%;
+  }
+
+  .sec_yellow_head{
+    width: 90%;
+  }
+  
+  .btn_block_contact{
+    width: 90%;
+  }
+
+  .block_contact_layot button{
+    font-size: 16px;
+  }
+
+  .block_contact_layot p{
+    width: 280px;
+  }
+
+  .block_company img{
+    width: 100%;
+  }
+
+  .reasons_to_choose_product{
+    padding: 0;
+  }
+
+  .main_Text_reasons_text{
+    position: relative;
+    padding-left: 10px;
+    width: 95%;
+  }
+
+  .block_icons_info{
+    position: relative;
+    top: 100px;
+  }
+
+  .block_icons_info{
+    left: 10px !important;
+    width: 90% !important;
+  }
+
+  .indu_cont{
+    height: 80%;
+  }
+
+  .get_one_Step{
+    top: 1400px;
+    padding: 0 !important;
+  }
+
+    .head_text_step{
+        width: 100%;
+        padding: 0;
+    }
+
+    .main_text_step{
+        width: 97%;
+    }
+
+  .coments_block{
+    display: none;
+  }
+
+    .orange_line_contacts{
+        position: relative;
+        top: 1500px;
+    }
+ 
+    footer{
+        display: none;
+    }
+
+    .orange_line_contacts{
+        padding: 0 !important;
+        height: 90px !important;
+        flex-direction: unset;
+    }
+
+    .adress_block{
+        width: 30%;
+        position: relative;
+    }
+    .adress_dop_block p{
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    .contact_fot_text_main{
+        font-size: 12px !important;
+    }
+    .contact_fot{
+        width: 100%;
+        flex-direction: unset !important;
+    }
+  .head_reasons_text{
+    width: 90%;
+    position: relative;
+    padding-left: 10px;
+    font-size: 48px;
+  }
+  .block_contact_layot{
+    gap: 10px;
+  }
+
+  .block_company{
+    top: 950px;
+  }
+
+  .reasons_to_choose_product{
+    top: 990px;
+  }
+
+  .chemyblock img{
+    width: 100%;
+  }
+
+  .chemy_text{
+    top: 139px;
+    left: 145px;
+    align-items: flex-start;
+  }
+
+  .head_text_three{
+    width: 100%;
+  }
+
+  .text_header {
+    gap: 15px;
+    left: 0;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .btn_header{
+    width: 250px;
+    height: 37px;
+    margin-right: 4px;
+  }
+
+  .co_cont {
+    width: 100% !important;
+    left: 0;
+    top: 100px;
+    
+  }
+
+  .head_text_two {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .himic, .people_mask {
+    display: none; /* сховати великі картинки */
+  }
+
+  .blocks_Sec_one {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    left: 0;
+  }
+
+  .raspirator_main, 
+  .raspirator_main_second, 
+  .chemy_block_main, 
+  .reasons_to_choose_product {
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .raspirator_main_text, 
+  .raspirator_main_text_second {
+    width: 100%;
+  }
+
+  .block_company,
+  .coments_block,
+  .get_one_Step {
+    left: 0;
+    width: 100%;
+  }
+
+  .get_one_Step {
+    padding: 20px;
+  }
+
+  .head_text_step {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .orange_line_contacts {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .icon_mail{
+    width: 30px;
+    height: 25px;
+}
+  .icon_phone{
+    width: 25px;
+    height: 25px;
+  }
+
+  .icon_location{
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact_fot {
+    flex-direction: column;
+    gap: 6.5px;
+    width: 90%;
+  }
+}
+
+/* ===== Планшети (768px – 1024px) ===== */
+@media (max-width: 1024px) {
+  .head_text_two {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  
+
+  .blocks_Sec_one {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .raspirator_main, 
+  .raspirator_main_second {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .chemy_block_main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .reasons_to_choose_product {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .massk {
+    width: 100%;
+    height: auto;
+  }
+
+  .block_Text_reasons, .block_icons_info {
+    left: 0;
+    width: 100%;
+  }
+}
